@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Productivaty",
+  "version": "1.0",
+  "description": "Lets you see how long per month / day you have been working so that you can enter it into your timesheet at work",
+  "icons": {
+    "128": "./src/assets/icon128.png",
+    "48": "./src/assets/icon48.png",
+    "16": "./src/assets/icon16.png"
+  },
+  "browser_action": {
+    "default_icon": "./src/assets/icon16.png",
+    "default_popup": "index.html"
+  }
+}
